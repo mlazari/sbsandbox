@@ -1,0 +1,45 @@
+{
+  "name": "before-storybook",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "author": "",
+  "scripts": {
+    "dev": "webpack serve --open",
+    "build": "webpack build",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "dependencies": {
+    "@babel/core": "latest",
+    "@babel/plugin-transform-modules-commonjs": "latest",
+    "@babel/preset-env": "latest",
+    "@babel/preset-react": "latest",
+    "@babel/preset-typescript": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "babel-loader": "latest",
+    "babel-preset-react-app": "latest",
+    "html-webpack-plugin": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "typescript": "latest",
+    "webpack": "latest",
+    "webpack-cli": "latest",
+    "webpack-dev-server": "latest"
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^7.6.6",
+    "@storybook/addon-docs": "^7.6.6",
+    "@storybook/addon-essentials": "^7.6.6",
+    "@storybook/addon-interactions": "^7.6.6",
+    "@storybook/addon-links": "^7.6.6",
+    "@storybook/addon-onboarding": "^1.0.10",
+    "@storybook/blocks": "^7.6.6",
+    "@storybook/react": "^7.6.6",
+    "@storybook/react-webpack5": "^7.6.6",
+    "@storybook/test": "^7.6.6",
+    "@storybook/testing-library": "^0.2.2",
+    "storybook": "^7.6.6"
+  }
+}
